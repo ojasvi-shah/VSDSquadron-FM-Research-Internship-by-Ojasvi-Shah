@@ -1,12 +1,6 @@
 ## Step 2: Creating the PCF file
 
-The PCF [Physical Constraint File] file can be accessed [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/VSDFM.pcf). It is used in FPGA development to map logical signals from HDL code to physical pins on the FPGA chip. Each *set_io* command establishes this connection between the named ports to physical pins on the board.
-
-PCF file: 
-
-![image](https://github.com/user-attachments/assets/962ec897-d726-422f-9c10-e450bbebb432)
-
-The connections established by this file can be represented as follows:
+The PCF [Physical Constraint File] file can be accessed [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/VSDFM.pcf). It is used in FPGA development to map logical signals from HDL code to physical pins on the FPGA chip. Each *set_io* command establishes this connection between the named ports to physical pins on the board. The connections established by this file can be represented as follows:
 
 ![image](https://github.com/user-attachments/assets/1e4f786f-e4fd-413c-b556-eb6c0b1b8046)
 
