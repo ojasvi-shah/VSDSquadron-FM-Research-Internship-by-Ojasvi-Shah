@@ -5,7 +5,7 @@
 **Contents:**
 1. [Step 1: Understanding the Verilog code](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/Verilog%20Functionality.md)
 
-2. Step 2: Creating the PCF file
+2. [Step 2: Creating the PCF fil](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/PCF%20file.md)e
 
 3. Step 3: Integrating with the VSDSquadron FPGA Mini Board
 
