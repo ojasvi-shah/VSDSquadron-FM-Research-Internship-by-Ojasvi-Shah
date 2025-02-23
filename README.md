@@ -7,6 +7,6 @@
 
 2. [Step 2: Creating the PCF file](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/PCF%20file.md)
 
-3. Step 3: Integrating with the VSDSquadron FPGA Mini Board
+3. [Step 3: Integrating with the VSDSquadron FPGA Mini Board](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/Integration.md)
 
 4. Step 4: Final Documentation 
