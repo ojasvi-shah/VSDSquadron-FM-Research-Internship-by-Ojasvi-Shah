@@ -13,4 +13,4 @@
    - Run 'make clean' to clear any previous builds
    - Run 'make build' to compile the design
    - Run 'sudo make flash' to program the FPGA board
-5. Observe the behavior of the RGB LED on the board to confirm successful programming.
+5. Observe the behavior of the RGB LED (blue color remains on) on the board to confirm successful programming.
