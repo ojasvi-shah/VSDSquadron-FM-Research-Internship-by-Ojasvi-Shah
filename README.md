@@ -1,5 +1,5 @@
 # VSDSquadron FM Research Internship by Ojasvi Shah
-
+## Task 1: Understanding and Implementing the Verilog Code on FM
 **Objective:** Understanding and documenting the provided Verilog code, creating the necessary PCF file, and integrating the design with the [VSDSquadron FPGA Mini Board](https://www.vlsisystemdesign.com/vsdsquadronfm/) using the provided [datasheet](https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/VSDSquadronFMDatasheet.pdf)
 
 **Contents:**
