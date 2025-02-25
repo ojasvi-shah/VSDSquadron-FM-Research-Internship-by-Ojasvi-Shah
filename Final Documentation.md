@@ -18,7 +18,10 @@ The file maps a red LED to pin 39, a blue LED to pin 40, a green LED to pin 41, 
      - Run 'make clean' to clear any previous builds
      - Run 'make build' to compile the design
      - Run 'sudo make flash' to program the FPGA board
-5. Verify that Blue LED remains ON (controlled by SB_RGBA_DRV) - this is the expected result.
+5. Verify that LED remains BLINKS (controlled by SB_RGBA_DRV) - this is the expected result:
+
+https://github.com/user-attachments/assets/9d173465-1031-4fe9-bf60-272951dd391f
+
 
 ### Challenges Faced and Solutions Implemented
 - faced difficulty in connecting board: was able to refer group where someone had already found a solution - a USBC cable that could transfer data was needed
