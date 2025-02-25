@@ -15,7 +15,7 @@
 **Objective:** Implement a UART loopback mechanism where transmitted data is immediately received back, facilitating testing of UART functionality
 
 **Contents:**
-1. Step 1: Study the Existing Code
+1. [Step 1: Study the Existing Code](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/UARTexistingcodeanalysis.md)
 2. Step 2: Design Documentation
 3. Step 3: Implementation
 4. Step 4: Testing and Verification
