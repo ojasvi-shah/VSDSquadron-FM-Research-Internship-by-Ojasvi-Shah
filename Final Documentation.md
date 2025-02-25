@@ -24,5 +24,5 @@ https://github.com/user-attachments/assets/9d173465-1031-4fe9-bf60-272951dd391f
 
 
 ### Challenges Faced and Solutions Implemented
-- faced difficulty in connecting board: was able to refer group where someone had already found a solution - a USBC cable that could transfer data was needed
-- found it kind of hard to understand the verilog originally - google searches were able to clear things up
+- Faced difficulty in connecting board: was able to refer group where someone had already found a solution - a USBC cable that could transfer data was needed
+- Found it kind of hard to understand the verilog originally - google searches were able to clear things up
