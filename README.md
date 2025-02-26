@@ -167,7 +167,7 @@ Implement a UART loopback mechanism where transmitted data is immediately receiv
 
 ## Contents:
 ### Step 1: Study the Existing Code
-UART (Universal Asynchronous Receiver-Transmitter) is a hardware communication protocol used for serial communication between devices. It consists of two main data lines: the TX (Transmit) pin and the RX (Receive) pin. Specifically, a UART loopback mechanism is a test or diagnostic mode where data, which is transmitted to the TX (transmit) pin is directly routed back to the RX (receive) pin of the same module. This allows the system to verify that the TX and RX lines function correctly without the need of an external device. The existing code can be found here. It is sourced from this repository. For the analysis of this code, expand or collapse:
+UART (Universal Asynchronous Receiver-Transmitter) is a hardware communication protocol used for serial communication between devices. It consists of two main data lines: the TX (Transmit) pin and the RX (Receive) pin. Specifically, a UART loopback mechanism is a test or diagnostic mode where data, which is transmitted to the TX (transmit) pin is directly routed back to the RX (receive) pin of the same module. This allows the system to verify that the TX and RX lines function correctly without the need of an external device. The existing code can be found [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/UARTexistingcode.v). It is sourced from [this repository](https://github.com/thesourcerer8/VSDSquadron_FM/tree/main/uart_loopback). For the analysis of this code, expand or collapse:
 
 <details>
 <summary>Analysis of Existing Code</summary>
