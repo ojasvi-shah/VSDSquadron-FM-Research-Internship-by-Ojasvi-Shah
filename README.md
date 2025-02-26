@@ -7,10 +7,9 @@ Understanding and documenting the provided Verilog code, creating the necessary 
 
 ## Contents:
 ### Step 1: Understanding the Verilog code
-The Verilog code can be accessed [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/VSDFM_top_module.v). It is code for a FPGA (Field Programmable Gate Array) board, and implements a hardware module that controls RGB LEDs using an internal oscillator and counter. Now, to describe the module:
+The Verilog code can be accessed [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/VSDFM_top_module.v). It is code for a FPGA (Field Programmable Gate Array) board, and implements a hardware module that controls RGB LEDs using an internal oscillator and counter. Now, for the description of the module, expand or collapse:
 <details>
 <summary>Module Analysis </summary>
-<br>
 
 ### Port Analysis:
 The first section of the code specifies the **ports** of the board, which are in the form of:
