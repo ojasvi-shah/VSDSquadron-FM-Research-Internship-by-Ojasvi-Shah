@@ -215,6 +215,19 @@ The module explains six ports:
 </details>
 
 ### Step 2: Design Documentation
+
+<details>
+<summary>Block Diagram Illustrating the UART Loopback Architecture.</summary>
+
+![image](https://github.com/user-attachments/assets/3447a27b-59fe-49e7-9c73-9a85f39c8a7d)
+</details>
+
+<details>
+<summary>Detailed Circuit Diagram showing Connections between the FPGA and any Peripheral Devices used.</summary>
+
+![image](https://github.com/user-attachments/assets/af77ea52-38ef-415a-a724-43abf43bc207)
+</details>
+
 ### Step 3: Implementation
 ### Step 4: Testing and Verification
 ### Step 5: Documentation
