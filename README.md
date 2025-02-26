@@ -98,7 +98,7 @@ This command maps *testwire* to pin 17, for testing or debugging purposes.
 
 ### Step 3: Integrating with the VSDSquadron FPGA Mini Board
 <details>
-<summary>Integration steps: </summary>
+<summary>Integration steps </summary>
     
 ### Links
 1. Datasheet: [here](https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/VSDSquadronFMDatasheet.pdf)
