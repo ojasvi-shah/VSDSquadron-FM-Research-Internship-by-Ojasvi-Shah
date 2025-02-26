@@ -12,6 +12,8 @@ The Verilog code can be accessed [here](https://github.com/ojasvi-shah/VSDSquadr
 <summary>Module Analysis </summary>
 
 ### Port Analysis:
+![image](https://github.com/user-attachments/assets/7a82694b-1b5f-4ad3-bd6b-34b755812aed)
+
 The first section of the code specifies the **ports** of the board, which are in the form of:
 1. *led_red, led_blue, led_green* : These **three output wires** control the **RGB LED colors**. Each wire carries a **single-bit signal** that determines whether its corresponding color is **active** (1) or **inactive** (0).
 2. *hw_clk* : A **single-bit input wire** that connects to the **hardware oscillator**, providing the system **clock signal** that drives the module's timing.
