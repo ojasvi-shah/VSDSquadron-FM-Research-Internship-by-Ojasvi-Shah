@@ -167,6 +167,53 @@ Implement a UART loopback mechanism where transmitted data is immediately receiv
 
 ## Contents:
 ### Step 1: Study the Existing Code
+UART (Universal Asynchronous Receiver-Transmitter) is a hardware communication protocol used for serial communication between devices. It consists of two main data lines: the TX (Transmit) pin and the RX (Receive) pin. Specifically, a UART loopback mechanism is a test or diagnostic mode where data, which is transmitted to the TX (transmit) pin is directly routed back to the RX (receive) pin of the same module. This allows the system to verify that the TX and RX lines function correctly without the need of an external device. The existing code can be found here. It is sourced from this repository. For the analysis of this code, expand or collapse:
+
+<details>
+<summary>Analysis of Existing Code</summary>
+
+### Port Analysis:
+The module explains six ports:
+- Three **RGB LED outputs** (led_red, led_blue, led_green)
+- **UART transmit/receive pins** (uarttx, uartrx)
+- **System clock input** (hw_clk)
+
+### Internal Component Analysis
+1. **Internal Oscilliator** (SB_HFOSC)
+- Implements a high-frequency oscillator
+- Uses CLKHF_DIV = "0b10" for frequency division
+- Generates internal clock signal (int_osc)
+
+2. **Frequency Counter**
+- 28-bit counter (frequency_counter_i)
+- Increments on every positive edge of internal oscillator
+- Used for timing generation
+
+3. **UART Loopback**
+- Direct connection between transmit and receive pins
+- Echoes back any received UART data immediately
+
+4. **RGB LED Driver** (SB_RGBA_DRV)
+- Controls three RGB channels
+- Uses PWM (Pulse Width Modulation) for brightness control
+- Current settings configured for each channel
+- Maps UART input directly to LED intensity
+
+### Operation Analysis
+1. **UART Input Processing**
+- Received UART data appears on *uartrx* pin
+- Data is immediately looped back out through *uarttx*
+- Same data drives all RGB channels simultaneously
+2. **LED Control**
+- RGB driver converts UART signal to PWM output
+- All LEDs respond identically to input signal
+- Current limiting set to minimum (0b000001) for each channel
+3. **Timing Generation**
+- Internal oscillator provides clock reference
+- Frequency counter generates timing signals
+- Used for PWM generation and LED control
+</details>
+
 ### Step 2: Design Documentation
 ### Step 3: Implementation
 ### Step 4: Testing and Verification
