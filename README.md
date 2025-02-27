@@ -229,5 +229,44 @@ The module explains six ports:
 </details>
 
 ### Step 3: Implementation
+<details>
+<summary>Steps to Transmit Code to FPGA Board</summary>
+    
+1. Create the following files ([Makefile](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/Makefile2), [uart_trx](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/UARTexistingcode.v) - verilog, [top module](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/uart-top.v) - verilog, [pcf file](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/UART.pcf)) in a folder under VSDSquadronFM. In this case, I have named it *uart_loopback*.
+
+![image](https://github.com/user-attachments/assets/e1ad1ffd-def9-4119-ab07-b40db477ef51)
+
+2. Then, go to terminal, and enter the commands below. Also connect the board to the VM and verify using the command *lsusb* [if the board is connected, you will see the text "Future Technology Devices International"] .
+   > cd
+   > 
+   > cd VSDSquadron_FM
+   > 
+   > cd uart_loopback
+
+Then, your screen will look like the screenshot below.
+![image](https://github.com/user-attachments/assets/87f284a7-a44a-4e70-a125-327b6fa15a59)
+
+3. After this, run the commands "make build", and "sudo make flash". Then, your screen will look like:
+![image](https://github.com/user-attachments/assets/91c7c341-c19a-4add-a5fb-5f8529cc54eb)
+
+That is it. You have successfully finished transmitting the code.
+</details>
+
 ### Step 4: Testing and Verification
+
+<details>
+<summary>Testing and Verification</summary>
+    
+1. For this,we will be using a software known as docklight, which can be downloaded from its website.
+    
+2. Open Docklight - and verify that your system (not the VM) is connected to the right communication port - in my case it is COM7 and the default was COM1 - and if not, change it through tools > project settings. Also verify that speed is set to 9600.
+    
+![image](https://github.com/user-attachments/assets/467c3207-0137-45a8-8a53-1e1103269d2b)
+
+3. Then, you may double click on the small blue box below name in send sequences and enter a name, select a format and then type your message. Post this, click "Apply" and then verify that this has entered in send sequences. Then, click the arrow beside the name and verify the result is as follows:
+
+![image](https://github.com/user-attachments/assets/47a7f864-2fa9-458e-9380-3b264b0f8904)
+
+</details>
+
 ### Step 5: Documentation
