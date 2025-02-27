@@ -302,9 +302,54 @@ Develop a UART transmitter module capable of sending serial data from the FPGA t
 ## Contents:
 ### Step 1: Study the Existing Code
 
-A UART transmitter module is a hardware component that enables serial communication from an FPGA to external devices by converting parallel data into sequential bits . This module serves as a fundamental interface for sending data between the FPGA and external devices such as computers, microcontrollers, or other electronic equipment. The code for this module can e
+A UART transmitter module is a hardware component that enables serial communication from an FPGA to external devices by converting parallel data into sequential bits . This module serves as a fundamental interface for sending data between the FPGA and external devices such as computers, microcontrollers, or other electronic equipment. The code for this module can accessed [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/task3). It is sourced from this [repository](https://github.com/thesourcerer8/VSDSquadron_FM/tree/main/uart_tx).
+
+<details>
+<summary>Module Analysis</summary>
+
+### Module Overview
+This is a VHDL implementation of an 8N1 UART transmitter module designed for Field-Programmable Gate Arrays (FPGAs). The module handles asynchronous serial data transmission with specific parameters:
+- 8 data bits
+- No parity bit
+- 1 stop bit
+
+### State Machine Operation
+1. **IDLE State (*STATE_IDLE*)**
+   - Maintains TX line high (idle condition)
+   - Waits for senddata trigger
+   - Resets txdone flag
+2. **STARTTX State (*STATE_STARTTX*)**
+   - Transmits start bit (logic low)
+   - Loads transmission buffer with txbyte
+   - Immediately transitions to *TXING* state
+3. **TXING State (*STATE_TXING*)**
+   - Sends data bits sequentially
+   - Shifts buffer right for next bit
+   - Counts transmitted bits (0-7)
+   - Continues until all 8 bits sent
+4. **TXDONE State (*STATE_TXDONE*)**
+   - Sends stop bit (logic high)
+   - Sets *txdone* flag
+   - Returns to IDLE state
+   
+</details>
 
 ### Step 2: Design Documentation
+
+<details>
+<summary>Block Diagram</summary>
+
+
+![image](https://github.com/user-attachments/assets/cca7a246-abb8-4d8a-a695-85d04eb5b15a)
+</details>
+
+<details>
+<summary>Circuit Diagram</summary>
+
+![image](https://github.com/user-attachments/assets/44ab6bc7-145c-4a0c-87e8-e98966497478)
+
+</details>
+
 ### Step 3: Implementation
 ### Step 4: Testing and Verification
 ### Step 5: Documentation
