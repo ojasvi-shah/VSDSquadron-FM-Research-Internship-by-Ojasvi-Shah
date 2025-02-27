@@ -301,6 +301,9 @@ https://github.com/user-attachments/assets/443cf339-d2ac-45a5-885c-c1fdc74a46ed
 Develop a UART transmitter module capable of sending serial data from the FPGA to an external device.
 ## Contents:
 ### Step 1: Study the Existing Code
+
+A UART transmitter module is a hardware component that enables serial communication from an FPGA to external devices by converting parallel data into sequential bits . This module serves as a fundamental interface for sending data between the FPGA and external devices such as computers, microcontrollers, or other electronic equipment. The code for this module can e
+
 ### Step 2: Design Documentation
 ### Step 3: Implementation
 ### Step 4: Testing and Verification
