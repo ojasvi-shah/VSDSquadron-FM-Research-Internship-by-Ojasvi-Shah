@@ -270,3 +270,27 @@ That is it. You have successfully finished transmitting the code.
 </details>
 
 ### Step 5: Documentation
+
+<details>
+<summary>Block and Circuit Diagrams (respectively)</summary>
+
+![image](https://github.com/user-attachments/assets/132b8232-ae8d-48a9-a76c-33c0bad4e661)
+
+![image](https://github.com/user-attachments/assets/ad0a1fa9-ab68-4cbe-81ae-18d9721a2315)
+
+</details>
+
+<details>
+<summary> Testing Results</summary>
+    
+![image](https://github.com/user-attachments/assets/47a7f864-2fa9-458e-9380-3b264b0f8904)
+
+</details>
+
+
+<details>
+<summary>Video demonstrating Loopback Functionality</summary>
+
+https://github.com/user-attachments/assets/443cf339-d2ac-45a5-885c-c1fdc74a46ed
+
+</details>
