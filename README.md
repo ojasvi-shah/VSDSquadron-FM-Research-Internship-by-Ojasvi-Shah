@@ -294,3 +294,14 @@ That is it. You have successfully finished transmitting the code.
 https://github.com/user-attachments/assets/443cf339-d2ac-45a5-885c-c1fdc74a46ed
 
 </details>
+
+
+# Task 3: Developing a UART Transmitter Module
+## Objective: 
+Develop a UART transmitter module capable of sending serial data from the FPGA to an external device.
+## Contents:
+### Step 1: Study the Existing Code
+### Step 2: Design Documentation
+### Step 3: Implementation
+### Step 4: Testing and Verification
+### Step 5: Documentation
