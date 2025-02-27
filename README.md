@@ -351,5 +351,35 @@ This is a VHDL implementation of an 8N1 UART transmitter module designed for Fie
 </details>
 
 ### Step 3: Implementation
+<details>
+<summary>Steps to Transmit the Code</summary>
+
+1. Create the following [files](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/task3) in a folder under VSDSquadron_FM.
+2. Then, open terminal and through the commands "cd"; "cd VSDSquadron_FM" and "cd uart_transmission" enter the folder "uart_transmission", where you have created the files.
+3. Post this, you may verify that the board is connected through "lsusb" command.
+4. After this, run "make build" and "sudo make flash".
+
+That is all. The code is transmitted.
+</details>
+
 ### Step 4: Testing and Verification
+
+<details>
+<summary>Steps of Testing and Verification</summary>
+
+1. Install, and then open PuTTy.
+2. Verify that the correct port is connected through serial communication (COM 7 in my case)
+3. Then, check that a series of "D"s are generated.
+
+If so, you have successfully completed the task.
+</details>
+
 ### Step 5: Documentation
+<details>
+<summary>UART Transmission in Operation</summary>
+
+https://github.com/user-attachments/assets/1da62013-2543-4feb-b6bd-689d24fed912
+
+
+
+</details>
