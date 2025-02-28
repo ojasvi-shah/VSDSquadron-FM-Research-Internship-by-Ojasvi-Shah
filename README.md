@@ -448,9 +448,11 @@ The *uart_tx_sense* module implements a complete **UART transmitter** designed s
 ### Step 2: Design Documentation
 
 <details>
-<summary>Block Diagram Depicting the Integration of the Sensor Module with the UART Transmitter</summary>
+<summary>Block and Circuit Diagram</summary>
 
 ![image](https://github.com/user-attachments/assets/86d868e5-3f3f-4c62-8c55-901ab252ea13)
+
+![image](https://github.com/user-attachments/assets/662b401e-3eb8-4fb0-b9f5-8e927346def8)
 
 </details>
 
@@ -485,6 +487,9 @@ If so, you have successfully completed the task.
 <summary>Block and Circuit Diagrams (respectively)</summary>
 
 ![image](https://github.com/user-attachments/assets/86d868e5-3f3f-4c62-8c55-901ab252ea13)
+
+![image](https://github.com/user-attachments/assets/d50b17a1-fb11-4412-8b30-bc7f44cbd6e1)
+
 </details>
 <details> 
 <summary>Video Demonstrating System Transmitting Data</summary>
