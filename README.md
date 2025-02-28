@@ -387,3 +387,14 @@ https://github.com/user-attachments/assets/1da62013-2543-4feb-b6bd-689d24fed912
 
     
 </details>
+
+# Task 4: Implementing a UART Transmitter that Sends Data Based on Sensor Inputs
+## Objective:
+Implement a UART transmitter that sends data based on sensor inputs, enabling the FPGA to communicate real-time sensor data to an external device.
+
+## Contents:
+### Step 1: Study the Existing Code
+### Step 2: Design Documentation
+### Step 3: Implementation
+### Step 4: Testing and Verification
+### Step 5: Documentation
