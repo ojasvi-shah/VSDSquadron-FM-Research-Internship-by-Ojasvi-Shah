@@ -365,7 +365,7 @@ That is all. The code is transmitted.
 
 1. Install, and then open PuTTy.
 2. Verify that the correct port is connected through serial communication (COM 7 in my case)
-3. Then, check that a series of "D"s are generated.
+3. Then, check that a series of "D"s are generated and the RGB LED is blinking (switching between red, green and blue) .
 
 If so, you have successfully completed the task.
 </details>
@@ -446,6 +446,37 @@ The *uart_tx_sense* module implements a complete **UART transmitter** designed s
 </details>
 
 ### Step 2: Design Documentation
+
+<details>
+<summary>Block Diagram Depicting the Integration of the Sensor Module with the UART Transmitter</summary>
+
+![image](https://github.com/user-attachments/assets/86d868e5-3f3f-4c62-8c55-901ab252ea13)
+
+</details>
+
 ### Step 3: Implementation
+
+<details>
+<summary>Steps to Transmit the Code</summary>
+
+1. Create the following files in a folder under VSDSquadron_FM.
+2. Then, open terminal and through the commands "cd"; "cd VSDSquadron_FM" and "cd uart_transmission" enter the folder "uart_tx_sense", where you have created the files.
+3. Post this, you may verify that the board is connected through "lsusb" command.
+4. After this, run "make build" and "sudo make flash".
+
+That is all. The code is transmitted.
+</details>
+
 ### Step 4: Testing and Verification
+
+<details>
+<summary>Steps of Testing and Verification</summary>
+
+1. Open PuTTy.
+2. Verify that the correct port is connected through serial communication (COM 7 in my case)
+3. Then, check that a series of "D"s are generated and the RGB LED is red.
+
+If so, you have successfully completed the task.
+</details>
+
 ### Step 5: Documentation
