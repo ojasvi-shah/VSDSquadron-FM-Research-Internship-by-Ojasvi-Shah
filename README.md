@@ -459,7 +459,7 @@ The *uart_tx_sense* module implements a complete **UART transmitter** designed s
 <details>
 <summary>Steps to Transmit the Code</summary>
 
-1. Create the following files in a folder under VSDSquadron_FM.
+1. Create the following [files](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/uart_tx_sense) in a folder under VSDSquadron_FM.
 2. Then, open terminal and through the commands "cd"; "cd VSDSquadron_FM" and "cd uart_transmission" enter the folder "uart_tx_sense", where you have created the files.
 3. Post this, you may verify that the board is connected through "lsusb" command.
 4. After this, run "make build" and "sudo make flash".
