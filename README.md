@@ -157,7 +157,7 @@ https://github.com/user-attachments/assets/9d173465-1031-4fe9-bf60-272951dd391f
 - Found it kind of hard to understand the verilog originally - google searches were able to clear things up
 </details>
 
-# Task 2: Implementing a UART feedback mechanism
+# Task 2: Implementing a UART loopback mechanism
 ## Objective:
 Implement a UART loopback mechanism where transmitted data is immediately received back, facilitating testing of UART functionality
 
