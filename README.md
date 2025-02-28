@@ -7,7 +7,7 @@ Understanding and documenting the provided Verilog code, creating the necessary 
 
 ## Contents:
 ### Step 1: Understanding the Verilog code
-The Verilog code can be accessed [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/VSDFM_top_module.v). It is code for a FPGA (Field Programmable Gate Array) board, and implements a hardware module that controls RGB LEDs using an internal oscillator and counter. Now, for the description of the module, expand or collapse:
+The Verilog code can be accessed [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/VSDFM_top_module.v). It is code for a FPGA (Field Programmable Gate Array) board, and implements a hardware module that controls RGB LEDs using an internal oscillator and counter.
 <details>
 <summary>Module Analysis </summary>
 
@@ -71,7 +71,7 @@ The RGB LED driver (SB_RGBA_DRV) manages the LED outputs with the following char
 </details>
 
 ### Step 2: Creating the PCF file
-The PCF [Physical Constraint File] file can be accessed [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/VSDFM.pcf). It is used in FPGA development to map logical signals from HDL code to physical pins on the FPGA chip. Each *set_io* command establishes this connection between the named ports to physical pins on the board. To understand the connections established by this file, expand or collapse:
+The PCF [Physical Constraint File] file can be accessed [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/blob/main/VSDFM.pcf). It is used in FPGA development to map logical signals from HDL code to physical pins on the FPGA chip. Each *set_io* command establishes this connection between the named ports to physical pins on the board.
 
 <details>
 <summary>Analysis of Connections Established by PCF file</summary>
@@ -97,8 +97,6 @@ This command maps *testwire* to pin 17, for testing or debugging purposes.
 </details>
 
 ### Step 3: Integrating with the VSDSquadron FPGA Mini Board
-To view the steps to integrate the code with the VSDSquadron FM board, along with the neccessary resources and documentation of the outcome, expand or collapse:
-
 <details>
 <summary>Steps of Integrating the Board </summary>
     
@@ -128,8 +126,6 @@ https://github.com/user-attachments/assets/51266b8f-1425-4bfa-a260-f847d74f84de
 </details>
 
 ### Step 4: Final Documentation
-To access the final documentation of task 1, expand or collapse:
-
 <details>
 <summary>Final Documentation of Task 1</summary>
     
@@ -380,6 +376,14 @@ If so, you have successfully completed the task.
 
 https://github.com/user-attachments/assets/1da62013-2543-4feb-b6bd-689d24fed912
 
+</details>
 
+<details>
+<summary>Block and Circuit Diagram (respectively): </summary>
 
+![image](https://github.com/user-attachments/assets/cca7a246-abb8-4d8a-a695-85d04eb5b15a)
+
+![image](https://github.com/user-attachments/assets/44ab6bc7-145c-4a0c-87e8-e98966497478)
+
+    
 </details>
