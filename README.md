@@ -480,3 +480,17 @@ If so, you have successfully completed the task.
 </details>
 
 ### Step 5: Documentation
+
+<details>
+<summary>Block and Circuit Diagrams (respectively)</summary>
+
+![image](https://github.com/user-attachments/assets/86d868e5-3f3f-4c62-8c55-901ab252ea13)
+</details>
+<details> 
+<summary>Video Demonstrating System Transmitting Data</summary>
+    
+https://github.com/user-attachments/assets/beabcf14-6793-4307-8e80-da8231b29e00
+
+> note: here you cannot see the LED blinking as the time intervals between each 0 and 1 are extremely tiny
+
+</details>
