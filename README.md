@@ -452,7 +452,8 @@ The *uart_tx_sense* module implements a complete **UART transmitter** designed s
 
 ![image](https://github.com/user-attachments/assets/86d868e5-3f3f-4c62-8c55-901ab252ea13)
 
-![image](https://github.com/user-attachments/assets/662b401e-3eb8-4fb0-b9f5-8e927346def8)
+![image](https://github.com/user-attachments/assets/34a020a3-91ff-43dd-8fc8-39a092931793)
+
 
 </details>
 
@@ -488,7 +489,7 @@ If so, you have successfully completed the task.
 
 ![image](https://github.com/user-attachments/assets/86d868e5-3f3f-4c62-8c55-901ab252ea13)
 
-![image](https://github.com/user-attachments/assets/d50b17a1-fb11-4412-8b30-bc7f44cbd6e1)
+![image](https://github.com/user-attachments/assets/e46df768-02aa-4daa-a115-b936e452d363)
 
 </details>
 <details> 
