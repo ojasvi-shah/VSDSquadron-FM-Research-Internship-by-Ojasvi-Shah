@@ -509,3 +509,13 @@ This is to be done through the following steps:
 2. Formulate a detailed project proposal outlining the system's functionality, required components, and implementation strategy.
 3. Execute the project plan by developing, testing, and validating the system.​
 4. Document the entire process comprehensively and create a short video demonstrating the project's functionality.
+### Step 1: Literature Review
+
+<details>
+<summary>Existing Projects and Resources</summary>
+
+1. [Youtube Video 1](https://youtu.be/xAh3inHn_bI?si=M18IE1zYEQQnSQBn)
+2. [Youtube Video 2](https://youtu.be/zWbEKRg9__U?si=tunoLT8JPCPrlOb8)
+3. [Youtube Video 3](https://youtu.be/ODd2L3XY6Zw?si=Xa_d_lR15vYb5mLo)
+    
+</details>
