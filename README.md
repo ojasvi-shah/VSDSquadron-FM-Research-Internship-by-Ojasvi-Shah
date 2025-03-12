@@ -517,5 +517,15 @@ This is to be done through the following steps:
 1. [Youtube Video 1](https://youtu.be/xAh3inHn_bI?si=M18IE1zYEQQnSQBn)
 2. [Youtube Video 2](https://youtu.be/zWbEKRg9__U?si=tunoLT8JPCPrlOb8)
 3. [Youtube Video 3](https://youtu.be/ODd2L3XY6Zw?si=Xa_d_lR15vYb5mLo)
-    
+4. This [Repository](https://github.com/thesourcerer8/VSDSquadron_FM/tree/main/simpleuart) by [*sourcerer8*](https://github.com/thesourcerer8)
+   
+</details>
+
+### Step 2: Define System Requirements
+
+<details>
+<summary>Necessary Hardware Components and Software Tools</summary>
+
+No hardware components are required for this project, however two tools [iverilog](https://bleyer.org/icarus/) and [gtkwave](https://gtkwave.sourceforge.net/)
+
 </details>
