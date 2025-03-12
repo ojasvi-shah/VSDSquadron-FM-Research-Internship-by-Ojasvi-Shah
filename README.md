@@ -500,3 +500,12 @@ https://github.com/user-attachments/assets/beabcf14-6793-4307-8e80-da8231b29e00
 > note: here you cannot see the LED blinking as the time intervals between each 0 and 1 are extremely tiny
 
 </details>
+
+# Task 5 and 6: FPGA Based Digital Oscillioscope
+## Objective:
+Designing a digital oscilloscope utilizing the FPGA to sample input signals, process the data, and display waveforms on a screen, enabling real-time signal analysis.
+This is to be done through the following steps:
+1. Conduct comprehensive research on the chosen theme.​
+2. Formulate a detailed project proposal outlining the system's functionality, required components, and implementation strategy.
+3. Execute the project plan by developing, testing, and validating the system.​
+4. Document the entire process comprehensively and create a short video demonstrating the project's functionality.
