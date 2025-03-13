@@ -532,3 +532,13 @@ This is to be done through the following steps:
 ![image](https://github.com/user-attachments/assets/e789de5f-10aa-42a9-a881-8782344872e6)
 ![image](https://github.com/user-attachments/assets/911e4a8e-b150-4242-be97-c3bccbf28fbc)
 </details>
+
+### Step 4: Develop a Project Plan
+<details>
+<summary>Implementation Steps</summary>
+
+1. Write *clockdivider* and *testbench* code (can be found here). Modify *makefile* to run *maketest*
+2. Run *maketest* and view output in *gtkwave*
+
+These steps are to be done over the two days, of 8th March and 9th March.
+</details>
