@@ -525,3 +525,6 @@ This is to be done through the following steps:
 
 **Necessary Hardware Components and Software Tools:**   No hardware components are required for this project, however two tools [iverilog](https://bleyer.org/icarus/) and [gtkwave](https://gtkwave.sourceforge.net/) are neccessary. To install them, the command *sudo apt install iverilog gtkwave* can be used
 
+![image](https://github.com/user-attachments/assets/e789de5f-10aa-42a9-a881-8782344872e6)
+![image](https://github.com/user-attachments/assets/911e4a8e-b150-4242-be97-c3bccbf28fbc)
+
