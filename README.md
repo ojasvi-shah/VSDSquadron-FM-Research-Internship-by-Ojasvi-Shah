@@ -537,7 +537,7 @@ This is to be done through the following steps:
 <details>
 <summary>Implementation Steps</summary>
 
-1. Write *clockdivider* and *testbench* code (can be found here). Modify *makefile* to run *maketest*
+1. Write *clockdivider* and *testbench* code (can be found [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/task6)). Modify *makefile* to run *maketest*
 2. Run *maketest* and view output in *gtkwave*
 
 These steps are to be done over the two days, of 8th March and 9th March.
