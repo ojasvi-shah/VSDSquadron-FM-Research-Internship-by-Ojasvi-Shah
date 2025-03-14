@@ -1,0 +1,4 @@
+set_io clk2 14
+set_io clk3 15
+set_io clk4 16
+set_io clk 20
