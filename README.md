@@ -548,5 +548,7 @@ These steps are to be done over the two days, of 8th March and 9th March.
 1. Create another folder under *VSDSquadronFM*. I have named the folder *clock_divider*. Then, write the code that can be found [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/task6) in that folder
 2. Then similar to task 3 and 4, connect the boards, and through the commands *cd*, *cd VSDSquadron_FM* and then *cd clock_divider* enter the folder and execute the commands *make build* and *sudo make flash*. In the password asked when running *sudo make flash*, enter *vsdiat*
 3. You will then get the output as follows:
-![image](https://github.com/user-attachments/assets/4f69d54d-29f5-4b89-8d60-141bc3199c4a)
+   
+![image](https://github.com/user-attachments/assets/ca13c570-ef6a-4224-b18c-bddcbc7d7a7c)
 
+https://github.com/user-attachments/assets/eef0a763-9e9d-4f3a-adb0-5116d4524e47
