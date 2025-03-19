@@ -501,54 +501,11 @@ https://github.com/user-attachments/assets/beabcf14-6793-4307-8e80-da8231b29e00
 
 </details>
 
-# Task 5 and 6: FPGA Based Digital Oscillioscope
+# Task 5 and 6: Real-Time Sensor Data Acquisition and Transmission System
 ## Objective:
-Designing a digital oscilloscope utilizing the FPGA to sample input signals, process the data, and display waveforms on a screen, enabling real-time signal analysis.
-This is to be done through the following steps:
+This theme focuses on developing systems that interface with various sensors to collect data, process it using the FPGA, and transmit the information to external devices through communication protocols like UART. This is to be done through the following steps:
 1. Conduct comprehensive research on the chosen theme.​
 2. Formulate a detailed project proposal outlining the system's functionality, required components, and implementation strategy.
 3. Execute the project plan by developing, testing, and validating the system.​
 4. Document the entire process comprehensively and create a short video demonstrating the project's functionality.
-### Step 1: Literature Review
 
-<details>
-<summary>Existing Projects and Resources</summary>
-
-1. [Youtube Video 1](https://youtu.be/xAh3inHn_bI?si=M18IE1zYEQQnSQBn)
-2. [Youtube Video 2](https://youtu.be/zWbEKRg9__U?si=tunoLT8JPCPrlOb8)
-3. [Youtube Video 3](https://youtu.be/ODd2L3XY6Zw?si=Xa_d_lR15vYb5mLo)
-4. This [Repository](https://github.com/thesourcerer8/VSDSquadron_FM/tree/main/simpleuart) by [*sourcerer8*](https://github.com/thesourcerer8)
-   
-</details>
-
-### Step 2: Define System Requirements
-
-**Necessary Hardware Components and Software Tools:**   No hardware components are required for this project, however two tools [iverilog](https://bleyer.org/icarus/) and [gtkwave](https://gtkwave.sourceforge.net/) are neccessary. To install them, the command *sudo apt install iverilog gtkwave* can be used
-
-### Step 3: Design System Architecture
-<details>
-<summary>Block Diagrams</summary>'
-    
-![image](https://github.com/user-attachments/assets/e789de5f-10aa-42a9-a881-8782344872e6)
-![image](https://github.com/user-attachments/assets/911e4a8e-b150-4242-be97-c3bccbf28fbc)
-</details>
-
-### Step 4: Project Plan
-<details>
-<summary>Implementation Steps</summary>
-
-1. Write *clockdivider* and *testbench* code (can be found [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/task6)). Modify *makefile* to run *maketest*
-2. Run *maketest* and view output in *gtkwave*
-
-These steps are to be done over the two days, of 8th March and 9th March.
-</details>
-
-### Step 5: Implementation
-
-1. Create another folder under *VSDSquadronFM*. I have named the folder *clock_divider*. Then, write the code that can be found [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/task6) in that folder
-2. Then similar to task 3 and 4, connect the boards, and through the commands *cd*, *cd VSDSquadron_FM* and then *cd clock_divider* enter the folder and execute the commands *make build* and *sudo make flash*. In the password asked when running *sudo make flash*, enter *vsdiat*
-3. You will then get the output as follows:
-   
-![image](https://github.com/user-attachments/assets/ca13c570-ef6a-4224-b18c-bddcbc7d7a7c)
-
-https://github.com/user-attachments/assets/eef0a763-9e9d-4f3a-adb0-5116d4524e47
