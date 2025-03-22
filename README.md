@@ -509,3 +509,7 @@ This theme focuses on developing systems that interface with various sensors to 
 3. Execute the project plan by developing, testing, and validating the system.​
 4. Document the entire process comprehensively and create a short video demonstrating the project's functionality.
 
+## Result:
+![image](https://github.com/user-attachments/assets/2d689ece-1168-430c-8378-a21c800bbe9a)
+code can be found [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/task%206)
+
