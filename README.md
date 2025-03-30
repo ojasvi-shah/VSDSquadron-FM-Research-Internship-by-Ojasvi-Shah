@@ -510,11 +510,8 @@ This theme focuses on developing systems that interface with various sensors to 
 4. Document the entire process comprehensively and create a short video demonstrating the project's functionality.
 
 ### Step 1: Literature Review
- 
- <details>
- <summary>Existing Projects and Resources</summary>
- 
-I referenced [this article](https://www.engineersgarage.com/arduino-touchless-bell-push-hc-sr04-buzzer/) from Engineers Garage, written by Nikhil Agnihotri.
+
+**Existing Projects and Resources:** I referenced [this article](https://www.engineersgarage.com/arduino-touchless-bell-push-hc-sr04-buzzer/) from Engineers Garage, written by Nikhil Agnihotri.
 
  </details>
  
