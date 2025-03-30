@@ -520,11 +520,10 @@ This theme focuses on developing systems that interface with various sensors to 
  **Necessary Hardware Components and Software Tools:**   For this project, a buzzer, an HC-SR04 ultrasonic sensor and connecting wires in the form of hardware components are required. For software tools, only [docklight](https://docklight.de/) is required.
  
  ### Step 3: Design System Architecture
- <details>
- <summary>Block Diagrams</summary>'
+**Block Diagrams:**
      
- </details>
- 
+![image](https://github.com/user-attachments/assets/db0f21be-945f-4974-9c32-e684e5b480b4)
+
  ### Step 4: Implementation
 
 
