@@ -521,11 +521,23 @@ This theme focuses on developing systems that interface with various sensors to 
  
  ### Step 3: Design System Architecture
 **Block Diagrams:**
-     
+
+![image](https://github.com/user-attachments/assets/a60632db-605f-4fc9-8afa-de32508b93e4)
+
 ![image](https://github.com/user-attachments/assets/267aa322-212f-4008-af22-9c1ed9a61ab1)
 
  ### Step 4: Implementation
 
 1. Write the code found [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/task6) in a folder named *touchless_bell* under the main *VSDSquadron_FM* folder.
 2. Then through *make build* and *sudo make flash* flash the code to the FPGA.
+3. Then connect the components as follows:
+
+   ![image](https://github.com/user-attachments/assets/13723bbe-81b3-4ce5-b917-fcc0bcb877c2)
+
+4. Open docklight and choose serial communication with 9600 BAUDS and 1 stop bit. Ensure that the correct port is connected
+5. Then, test with your hand or another object. If the hand/object approaches the sensor at a distance closer than 5 cm, the buzzer will beep. You can verify the distance through docklight.
+
+https://github.com/user-attachments/assets/13360fb5-b614-4d27-b357-c2cf88fe5115
+
+
 
