@@ -522,8 +522,10 @@ This theme focuses on developing systems that interface with various sensors to 
  ### Step 3: Design System Architecture
 **Block Diagrams:**
      
-![image](https://github.com/user-attachments/assets/db0f21be-945f-4974-9c32-e684e5b480b4)
+![image](https://github.com/user-attachments/assets/267aa322-212f-4008-af22-9c1ed9a61ab1)
 
  ### Step 4: Implementation
 
+1. Write the code found [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/task6) in a folder named *touchless_bell* under the main *VSDSquadron_FM* folder.
+2. Then through *make build* and *sudo make flash* flash the code to the FPGA.
 
