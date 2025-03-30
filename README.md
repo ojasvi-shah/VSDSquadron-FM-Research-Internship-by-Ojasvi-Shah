@@ -509,7 +509,25 @@ This theme focuses on developing systems that interface with various sensors to 
 3. Execute the project plan by developing, testing, and validating the system.​
 4. Document the entire process comprehensively and create a short video demonstrating the project's functionality.
 
-## Result:
-![image](https://github.com/user-attachments/assets/2d689ece-1168-430c-8378-a21c800bbe9a)
-code can be found [here](https://github.com/ojasvi-shah/VSDSquadron-FM-Research-Internship-by-Ojasvi-Shah/tree/main/task%206)
+### Step 1: Literature Review
+ 
+ <details>
+ <summary>Existing Projects and Resources</summary>
+ 
+I referenced [this article](https://www.engineersgarage.com/arduino-touchless-bell-push-hc-sr04-buzzer/) from Engineers Garage, written by Nikhil Agnihotri.
+
+ </details>
+ 
+ ### Step 2: Define System Requirements
+ 
+ **Necessary Hardware Components and Software Tools:**   For this project, a buzzer, an HC-SR04 ultrasonic sensor and connecting wires in the form of hardware components are required. For software tools, only [docklight](https://docklight.de/) is required.
+ 
+ ### Step 3: Design System Architecture
+ <details>
+ <summary>Block Diagrams</summary>'
+     
+ </details>
+ 
+ ### Step 4: Implementation
+
 
