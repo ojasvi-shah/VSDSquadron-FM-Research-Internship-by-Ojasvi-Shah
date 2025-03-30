@@ -46,4 +46,66 @@ always @(posedge clk) begin
                           state <= COUNTECHO;
         end
         COUNTECHO: begin
-              // once echo goes low =>
+              // once echo goes low => measurement done
+          if(!echo)
+                  state <= IDLE;
+        end
+
+        default: state <= IDLE;
+        endcase
+end
+
+assign trig = (state == TRIGGER);
+
+// generate 10 microsecs pulse
+always  @(posedge clk) begin
+        if(state == IDLE) begin
+                counter <= 10'd0;
+        end
+        else if(state == TRIGGER) begin
+                    counter <= counter + 1'b1;
+        end
+end
+
+// distanceRAW increments while echo=1
+always   @(posedge clk) begin
+         if(state == WAIT) begin
+                 distanceRAW <= 24'd0;
+         end
+         end else if(state == COUNTECHO) begin
+                     distanceRAW <= distanceRAW + 1'b1;
+         end
+end
+
+// convert distanceRAW to cms
+
+always   @(posedge clk) begin
+  distance_cm <= (distanceRAW * 34300 ) / (2 * 12000000);
+  if(distance_cm <= 5)
+          buzzer_signal <= 1;
+  else
+          buzzer_signal <= 0;
+end
+
+endmodule
+
+module refresher50ms(
+        input clk,
+        input en,
+        output measure
+);
+
+reg [18:0] counter = 22'd0;
+assign measure = (counter == 22'd1)
+
+always   @(posedge clk) begin
+         if(en == 0)
+                  counter <= 22'd0;
+         else if(counter == 22'd600000)
+                 counter <= 22'd0;
+         else
+                 counter <= counter + 1;
+end
+
+endmodule
+  
